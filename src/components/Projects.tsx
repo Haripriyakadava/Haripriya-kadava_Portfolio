@@ -1,5 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import home from '../assets/Project-images/home.png';
+import todolist from '../assets/Project-images/todolist.png';
+import temperatureconverter from '../assets/Project-images/temperatureconverter.png';
+import Iot from '../assets/Project-images/Iot.jpg';
+
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,14 +32,14 @@ const Projects = () => {
       title: 'E-Commerce Website',
       description: 'Developed a functional e-commerce website that allows users to browse products, manage cart, and purchase items, with an admin panel for product management.',
       technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'Bootstrap'],
-      image: '/Project-images/home.png',
+      image: home,
       github: 'https://github.com/Haripriyakadava/E-commerce-Website-Using-Php',
     },
     {
       title: 'Temperature Converter Web App',
       description: 'Built a simple yet interactive web application to convert temperature values between Celsius, Fahrenheit, and Kelvin.',
       technologies: ['Python (Flask)', 'HTML', 'CSS', 'Bootstrap', 'JavaScript'],
-      image: '/Project-images/Temperature converter.png',
+      image: temperatureconverter,
       github: 'https://github.com/Haripriyakadava/Temperature-Converter',
       
     },
@@ -42,7 +47,7 @@ const Projects = () => {
       title: 'To-Do List Web App',
       description: 'Built a simple and interactive web application to manage daily tasks efficiently. Users can add, complete, and delete tasks with a responsive and clean interface.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      image: '/Project-images/TO-DO List.png',
+      image: todolist,
       github: 'https://github.com/Haripriyakadava/To-Do-List-Web-App',
       
     },
@@ -50,7 +55,7 @@ const Projects = () => {
       title: 'Iot Manhole Monitoring & street Light control system',
       description: 'Designed and implemented a smart IoT solution for municipalities to monitor underground manholes and control streetlights with fault detection and real-time reporting. This system enhances public safety, automation, and smart city infrastructure.',
       technologies: ['IoT Sensors (Ultrasonic, LDR)', 'Arduino Uno', 'GPS Module', 'Wi-Fi Module (IoT communication)', 'Embedded C', 'Cloud Storage'],
-      image: '/Project-images/Iot.jpg',
+      image: Iot,
       github: 'https://github.com',
   
     },

@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Code2, Palette, Rocket, Users } from 'lucide-react';
+import photo from '../assets/photo.jpg';
+
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -88,7 +90,7 @@ const About = () => {
           }`}
         >
           <img
-            src="/photo.jpg" // 👈 Replace with your actual photo path (e.g. "/images/haripriya.jpg")
+            src={photo} // 👈 Replace with your actual photo path (e.g. "/images/haripriya.jpg")
             alt="Haripriya Kadava"
             className="w-72 h-72 md:w-80 md:h-80 rounded-2xl object-cover shadow-lg border-4 border-cyan-500/40 hover:scale-105 transition-transform duration-500"
           />
