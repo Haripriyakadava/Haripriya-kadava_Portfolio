@@ -31,7 +31,7 @@ npm run dev
 
 🌐 Live Demo
 
-haripriya-kadava-portfolio.vercel.app
+https://haripriya-kadava-portfolio.vercel.app
 
 👩‍💻 Author
 
